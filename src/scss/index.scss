@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img {
+    width: 200px;
+    height: 300px;
+}
+
+body {
+    background-color: #313131;
+    height: 100%;
+}
+.main{
+   height: 100%;
+   background: #313131;
+}
+@keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+@-moz-keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+@-ms-keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h2 {
+    position: fixed;
+    left: 50px;
+    top: 30px;
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    background: url(../../static/imgs/logo.png) no-repeat left top;
+}
+
+h6 {
+    position: fixed;
+    left: 190px;
+    top: 50px;
+    color: #fff;
+    background: url(../../static/imgs/sublogo.png) no-repeat left top;
+    width: 200px;
+    height: 32px;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+    animation: fn 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.box:hover {
+    animation-play-state: paused;
+}
+
+.box>div {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+p {
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+p img {
+    height: 50px;
+    width: 520px;
+}
+
+#nav {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    color: #fff;
+    width: 300px;
+}
+
+#nav ul {
+    width: 100%;
+}
+
+#nav ul li {
+    float: left;
+    font-family: 'codropsicons';
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#nav ul li:hover {
+    color: #f66;
+    font-size: 20px;
+    cursor: pointer;
+}

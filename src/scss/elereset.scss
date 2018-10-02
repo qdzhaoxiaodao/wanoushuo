@@ -1,0 +1,108 @@
+//布局
+.el-main {
+  padding: 0;
+  overflow: hidden;
+}
+
+.el-input__inner, .el-select-dropdown {
+  border: 1px solid #777777;
+}
+
+.el-select .el-input .el-select__caret {
+  color: #777777;
+}
+
+.el-popper[x-placement^="bottom"] .popper__arrow::after {
+  top: 0;
+  border-bottom-color: #C7C5C5;
+}
+
+/*  全局按钮  */
+//默认按钮
+.el-button {
+  border-radius: 0;
+  padding: 12px 46px;
+}
+
+.el-pager li.active {
+  color: #d1c0a5;
+}
+
+//中等按钮
+.el-button--medium {
+  padding: 10px 28px;
+}
+
+//小型  //超小
+.el-button--small {
+  padding: 9px 15px;
+}
+
+.el-button--mini {
+  padding: 7px 14px;
+}
+
+//消息弹窗
+.el-message {
+  border-radius: 0;
+}
+
+.el-message-box {
+  border-radius: 0;
+}
+
+.el-selects .el-input__inner {
+  border: 0;
+}
+
+.el-message-box__message p {
+  line-height: normal;
+}
+
+.el-message-box__btns {
+  margin-top: 10px;
+}
+
+.el-message-box--center .el-message-box__header {
+  padding-top: 15px;
+}
+
+.el-message-box__content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.el-message-box.el-message-box--center .el-button {
+  margin: 0 30px;
+}
+
+//模态框 中等
+.el-message-box.el-message-md {
+  width: 500px;
+}
+
+.el-message-md.el-message-box--center .el-button {
+  margin: 0 50px;
+  padding: 10px 28px;
+}
+
+//轮播图
+.el-carousel__container {
+  height: auto;
+}
+
+.el-carousel__arrow--left {
+  left: 106px;
+}
+
+.el-carousel__indicators {
+  bottom: 30px;
+}
+
+.el-carousel__arrow--right {
+  right: 106px;
+}
+
+.el-carousel__button {
+  height: 8px;
+}
